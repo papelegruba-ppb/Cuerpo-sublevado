@@ -1,27 +1,42 @@
-Cuerpo Sublevado · Referencias visuales
+# Cuerpo Sublevado - Inspiración y Documentación
 
-Objetivo
+Este directorio reúne los documentos de referencia y las muestras de trabajo del proyecto **Cuerpo Sublevado**, una marca creativa sobre dolor crónico, enfermedades invisibles y discapacidad invisible. La marca se centra en experiencias compartidas, humor cotidiano, sarcasmo y respuestas a comentarios invalidantes, sin limitarse a un diagnóstico concreto.
 
-Reunir las referencias visuales que definen el estilo gráfico de la marca Cuerpo Sublevado, un proyecto de productos creativos sobre dolor crónico, enfermedades invisibles y discapacidad invisible.
+## Archivos principales
 
-Dirección artística
+- **`Proyecto_marca_dolor_cronico_y_prompt_Claude_v2.pdf`**: documento actualizado con el planteamiento de marca, la dirección creativa y el prompt de trabajo.
+- **`muestra_librov2.pdf`**: segunda versión de la muestra del libro.
+- **`Proyecto_marca_dolor_cronico_y_prompt_Claude.pdf`**: versión anterior del documento de proyecto, conservada como referencia.
+- **`referencias_visuales/`**: carpeta prevista para reunir referencias visuales, si está disponible en el repositorio.
 
-- Humor cotidiano y absurdo: situaciones en las que el cuerpo tiene sus propios planes y no respeta agendas.
-- Sarcasmo y zascas: respuestas a comentarios invalidantes y escenas de frustración después de consultas médicas.
-- Personajes expresivos: gestos, posturas y situaciones que transmitan cansancio, incredulidad, rabia o ironía.
-- Identificación y complicidad: humor basado en experiencias reales, sin limitar la marca a un diagnóstico concreto.
+La muestra anterior del libro se ha retirado para evitar confusiones: la versión vigente es `muestra_librov2.pdf`.
 
-Aplicaciones
+## Dirección creativa
 
-- Ilustraciones para camisetas y otros productos.
-- Pósteres ilustrados.
-- Láminas en blanco y negro para colorear.
-- Contenido para redes sociales.
+- **Humor cotidiano y absurdo:** el cuerpo tiene sus propios planes y no respeta agendas.
+- **Sarcasmo y zascas:** respuestas a comentarios invalidantes y frustraciones tras consultas médicas.
+- **Identificación y complicidad:** situaciones reconocibles para personas con dolor crónico, fatiga o discapacidad invisible.
+- **Diseños versátiles:** ilustraciones a color para productos y versiones lineales en blanco y negro para colorear.
 
-Criterios de estilo
+## Notas de versión
 
-Las ilustraciones para colorear deben utilizar líneas negras limpias sobre fondo blanco, sin rellenos de color. Las ilustraciones para productos pueden tener color, expresividad y detalles visuales adaptados a cada diseño.
+### v2.0
 
-Referencias
+- Se actualiza la documentación del proyecto.
+- Se incorpora la muestra revisada del libro: `muestra_librov2.pdf`.
+- Se retira la muestra anterior para mantener una única versión vigente.
 
-Las imágenes de la raíz del repositorio sirven como inspiración visual. Se utilizarán para definir el lenguaje gráfico propio de la marca, sin copiar literalmente ilustraciones ajenas.
+## Regenerar los PDF
+
+Si el repositorio incluye el script `generar_pdfs_cuerpo_sublevado.py`, puede ejecutarse en un entorno Python con la dependencia `reportlab` instalada:
+
+```bash
+pip install reportlab
+python generar_pdfs_cuerpo_sublevado.py
+```
+
+El script puede generar los archivos en `output_cuerpo_sublevado/`, según las rutas definidas en el propio código. Comprueba las rutas de entrada y salida antes de ejecutarlo.
+
+---
+
+Documento actualizado el 12 de octubre de 2026.
